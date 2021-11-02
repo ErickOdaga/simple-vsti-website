@@ -1,0 +1,43 @@
+<section class="courses">
+    <div class="container">
+            <h1 class="text-center">All courses</h1>
+        <div class="row" >
+            <div class="col-lg-3 mb-5"  *ngFor="let cs of courses">
+                <div class="box"  shadow-sm>
+                    <img src="{{cs.image}}" width="100%">
+                    <h4 class="mt-2">{{cs.name}}</h4>
+                    <p mt-2>{{cs.description}}</p>
+                    <a href=" join-now" class="btn btn-lg btn-primary">Enroll Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="faculties">
+        <div class="row"><h2><strong>Faculties</strong></h2><br>
+            <div class="col"><h3>School of Computing & Informatics</h3>
+                <ul>
+                    <li>Diploma in ICT </li>
+                    <li>Certificate in ICT</li>
+                    <li>Computer Packages</li> 
+                    
+                </ul>
+            </div> 
+            <div class="col"><h3 >School of Business & Management</h3>
+                <ul>
+                    <li>Diploma in Secretarial Studies </li>
+                    <li>Certificate in Secretarial Studies</li>
+                    <li>Business Administration </li>
+                   
+                </ul>
+            </div>
+            <div class="col"><h3 >School of Professional Studies</h3>
+                <ul>
+                    <li>Special Candidates </li>
+                    <li>Basic Programming Languages(HTML & CSS)</li>
+                    <li>  Certified Professional Accountants(CPA)</li>
+                    
+                </ul>
+            </div>
+     </div>
+    </div>
+</section>

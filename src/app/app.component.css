@@ -1,0 +1,51 @@
+.navbar{
+   
+    font-weight: bold;
+    
+
+}
+.navbar-light .navbar-nav .nav-link{
+    color: red;
+    font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+    color: red;
+    font-size: 16px;
+    text-decoration:underline;
+    
+}
+.icon {
+    width: 28px;
+    margin-right: 0.7rem;
+  }
+  
+  
+  
+  .social-media p {
+    color: black;
+  }
+  
+  .social-icons {
+    display: flex;
+    margin-top: 0.5rem;
+    padding:0% 0% 1% 0%;
+  }
+  
+  .social-icons a {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background: whitesmoke;
+   
+    text-align: center;
+    line-height: 35px;
+    margin-right: 0.5rem;
+    transition: 0.3s;
+    
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.05);
+  }
+  

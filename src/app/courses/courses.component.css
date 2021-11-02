@@ -1,0 +1,27 @@
+.courses
+{
+    background-color: #eff;
+    padding: 20px 100px;
+}
+.box
+{
+    background-color: #eff;
+    padding:10px 20px;
+
+}
+
+.faculties col
+{
+    text-align: none;
+    background-color: rgb(224, 212, 222);
+    padding: 20px 20px;
+    
+}
+
+@media  screen and (max-width:600px) {
+    .courses
+{
+    background-color: #eff;
+    padding: 50px 10px;
+}
+}
